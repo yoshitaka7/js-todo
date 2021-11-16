@@ -1,0 +1,23 @@
+{
+  "name": "js-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass style.scss --output ./ --output-style compressed --watch --sourcemap=none",
+    "start": "npx @js-primer/local-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshitaka7/js-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoshitaka7/js-todo/issues"
+  },
+  "homepage": "https://github.com/yoshitaka7/js-todo#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
